@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* start menu */
+.main{
+    /* position: fixed; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px gray !important;
+}
+.nav-item a{
+    color: red;
+}
+.nav-item a:hover{
+    color: gray;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    font-family: 'Battambang', cursive; 
+    font-size: 22px;
+    color: black;
+}
+.nav-item a{
+    color: rgb(114, 102, 102) !important;
+}
+.nav-item a:hover{
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-brand img{
+    width: 35%;
+}
+/* end menu */
+
+/* start slide */
+.img-slide{
+    position: relative;
+}
+.read{
+    width: 100%;
+}
+.contact{
+    width: 100%;
+}
+.carousel-item h5{
+    font-size: 20px;
+    line-height: 45px;
+}
+.slide{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.carousel-inner .text{
+    width: 370px;
+    position: absolute;
+    text-align: left;
+    top: 15%;
+    left: 120px;
+    bottom: 0;
+    right: 0;
+}
+.carousel-inner p{
+    margin-top: 30px;
+}
+.carousel-item img{
+    width: 100% !important;
+}
+.carousel-item h5{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+}
+.carousel-item p{
+    color: black;
+    font-family: 'Battambang', cursive;
+    font-size: 20px;
+}
+.carousel-item a{
+    font-family: 'Battambang', cursive;
+}
+/* end slide */
+
+/* start content */
+.title1{
+    color: blue;
+    font-size: 35px;
+    font-family: 'Koulen', cursive;
+}
+.text1{
+    font-size: 20px;
+    font-family: 'Battambang', cursive;
+}
+.box{
+    width: 100%;
+    background-color: white;
+    padding: 7px;
+    box-shadow: 1px 2px 6px gray;
+    position: relative;
+}
+.box:hover .position{
+    display: block;
+}
+.box img{
+    width: 100%;
+    transition: opacity .25s ease-in-out;
+}
+.box img:hover{
+    background-color: white;
+    opacity: 0.2;
+    transition: opacity .25s ease-in-out;
+}
+.position {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: 'Battambang', cursive;
+    font-size: 20px;
+    display: none;
+}
+.box p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Koulen', cursive !important;
+}
+.show-more-service{
+    font-family: 'Battambang', cursive;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.show-more-service .btn{
+    background-color: blue;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+}
+.main-question i{
+    border: 1px solid blue;
+    color: blue;
+}
+.question{
+    font-size: 35px;
+    color: blue;
+    font-family: 'Koulen', cursive;
+}
+.answer{
+    font-size: 25px;
+    font-family: 'Battambang', cursive;    
+}
+.title-customer{
+    color: blue;
+    font-size: 35px;
+    font-family: 'Koulen', cursive;
+}
+.customer img{
+    width: 100%;
+}
+.office{
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+}
+.office1{
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+}
+.office-left p{
+    font-size: 18px;
+    width: 65%;
+    font-family: 'Battambang', cursive;
+}
+.office-right p{
+    font-size: 17px;
+    font-family: 'Battambang', cursive;
+    line-height: 17px;
+}
+/* end content */
+
+/* start footer */
+.footer{
+    background-color: blue;
+}
+.text-footer{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Battambang', cursive;
+}
+.icon{
+    text-align: right;
+    color: white;
+    font-size: 50px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+/* end footer */
