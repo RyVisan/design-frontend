@@ -228,14 +228,15 @@ button{
     font-family: 'Battambang', cursive;
 }
 .sub{
-    font-size: 15px;
+    font-size: 18px;
     color: blue;
 }
+.accordion-button:is(.collapsed) {
+    font-size: 18px;
+}
 .accordion-button:not(.collapsed) {
+    font-size: 18px;
     color: yellow;
     background-color: rebeccapurple;
-}
-.accordion-button::after {
-    color: red;
 }
 /* end footer */
