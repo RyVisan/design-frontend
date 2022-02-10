@@ -239,4 +239,34 @@ button{
     color: yellow;
     background-color: rebeccapurple;
 }
+.service-skill{
+    margin-bottom: 35px;
+}
+.service-skill li{
+    font-family: 'Battambang', cursive;
+    font-size: 18px;
+}
+.video-border{
+    border: 1px solid black;
+}
+.table-bordered h6{
+    font-family: 'Koulen', cursive;
+}
+.video-scroll{
+    display: block;
+    height: 356px;
+    overflow: auto;
+}
+.video-scroll tr td a{
+    text-decoration: none;
+    color: black;
+}
+.video-scroll tr td .row{
+    transition: 0.5s;
+}
+.video-scroll tr td:hover .row{
+    background: lightblue;
+    transition: 0.5s;
+}
+
 /* end footer */
