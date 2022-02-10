@@ -224,8 +224,18 @@ div{
 .accordion-item{
     font-family: 'Battambang', cursive;
 }
+button{
+    font-family: 'Battambang', cursive;
+}
 .sub{
     font-size: 15px;
     color: blue;
+}
+.accordion-button:not(.collapsed) {
+    color: yellow;
+    background-color: rebeccapurple;
+}
+.accordion-button::after {
+    color: red;
 }
 /* end footer */
