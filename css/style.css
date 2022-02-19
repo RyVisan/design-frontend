@@ -2,13 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
-    /* background-image: url('../img/5_1634177697.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
 }
-/* .back-color{
-    background-color: whitesmoke;
-} */
 div{
     padding: 0;
     margin: 0;
@@ -16,6 +10,8 @@ div{
 
 /* start menu */
 .main{
+    z-index: 200;
+    position: fixed;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 5px gray !important;
 }
@@ -44,6 +40,10 @@ div{
 /* end menu */
 
 /* start slide */
+.slide{
+    margin-top: 200px !important;
+    padding-top: 200px !important;
+}
 .img-slide{
     position: relative;
 }
