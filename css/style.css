@@ -2,7 +2,13 @@ body{
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    /* background-image: url('../img/5_1634177697.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
+/* .back-color{
+    background-color: whitesmoke;
+} */
 div{
     padding: 0;
     margin: 0;
@@ -10,7 +16,6 @@ div{
 
 /* start menu */
 .main{
-    /* position: fixed; */
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 5px gray !important;
 }
@@ -233,10 +238,104 @@ button{
 }
 .accordion-button:is(.collapsed) {
     font-size: 18px;
+    box-shadow: none;
 }
 .accordion-button:not(.collapsed) {
     font-size: 18px;
     color: yellow;
+    box-shadow: none;
     background-color: rebeccapurple;
 }
+.service-skill{
+    margin-bottom: 35px;
+}
+.service-skill li{
+    font-family: 'Battambang', cursive;
+    font-size: 18px;
+}
+.video-border{
+    border: 1px solid black;
+}
+.table-bordered h6{
+    font-family: 'Koulen', cursive;
+}
+.video-scroll{
+    display: block;
+    height: 356px;
+    overflow: auto;
+}
+.video-scroll tr td a{
+    text-decoration: none;
+    color: black;
+}
+.video-scroll tr td .row{
+    transition: 0.5s;
+}
+.video-scroll tr td:hover .row{
+    background: lightblue;
+    transition: 0.5s;
+}
+.question{
+    margin-top: 10px;
+}
+.question h3{
+    font-family: 'Koulen', cursive;
+    color: black;
+    margin-bottom: 0;
+}
+.time-work{
+    margin-top: 30px;
+}
+.time-work h3{
+    padding: 10px 0px;
+    border: none !important;
+}
+.time-work p{
+    padding: 0px 0px 0px 30px ;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Battambang', cursive;
+}
+.media i{
+    transition: 0.5s;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 40px; 
+    color: blue; 
+    padding: 30px; 
+    border: 2px solid blue;
+}
+.media i:hover{
+    transition: 0.5s;
+    color: white;
+    background: blue;
+}
+.back-attachment{
+    background: black;
+    height: 350px;
+    opacity: 2.5;
+    background-image: url('../img/1 (3).png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back-attachment h1{
+    margin-top: 150px;
+    border: 1px solide gray;
+    color: white;
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+}
+.back-attachment a{
+    font-family: 'Battambang', cursive;
+    font-size: 20px;
+    border: 2px solid white;
+    color: white;
+}
+.back-attachment a:hover{
+    border: 2px solid white;
+    color: black;
+    background: white;
+}
+
 /* end footer */
